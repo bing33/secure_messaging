@@ -4,7 +4,7 @@
 
 * To Run The Program: 
 
-	1. CD to the correct folder (BobTheServer is in Bob’s folder and AliceTheClient is in Alice’s folder after you extracting the tar files)
+	1. cd to the correct folder (BobTheServer is in Bob’s folder and AliceTheClient is in Alice’s folder)
 	2. Run BobTheServer, there are two options:
 		a. python BobTheServer.py 
 		b. python BobTheServer.py PORTNUMBER (eg. python BobTheServer.py 7890)
