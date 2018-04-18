@@ -1,16 +1,16 @@
 # ############################################################################## #
 # Assignment: Secure Messaging                                              	 #
-# Class: CS 4480 Computer Networks												 #
-# Program: BobTheServer.py 													     #
-# By: xrawlinson														         #
-# Last Update Date: 4/19/2016													 #
-#																				 #
+# Class: CS 4480 Computer Networks						 #
+# Program: BobTheServer.py 							 #
+# By: xrawlinson								 #
+# Last Update Date: 4/19/2016							 #
+#										 #										 #
 # Description: BobTheServer runs as a server that allows connection from         #
-#	           AliceTheClient, who will send messages to BobTheServer.           # 
-#			   The first message is a plain hello message asking for Bob's       # 
-#			   public key, after receiving it Bob signs and encrypts his         # 
+#	       AliceTheClient, who will send messages to BobTheServer.           # 
+#	       The first message is a plain hello message asking for Bob's       # 
+#	       public key, after receiving it Bob signs and encrypts his         # 
 #              public key then sends to Alice. The second message is an          # 
-# 			   encrypted message, BobTheServer will decrypt the message.         #    		       
+# 	       encrypted message, BobTheServer will decrypt the message.         #    		       
 # ############################################################################## #
 
 import socket 
