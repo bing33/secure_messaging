@@ -1,20 +1,20 @@
-# ############################################################################## #
-# Assignment: Secure Messaging                                              	 #
-# Class: CS 4480 Computer Networks												 #
-# Program: AliceTheClient.py 													 #
-# By: xrawlinson														         #
-# Last Update Date: 4/19/2016													 #
-#																				 #
-# Description: AliceTheClient runs as a client that requests to connect to       #
+# ########################################################################################## #
+# Assignment: Secure Messaging                                              	             #
+# Class: CS 4480 Computer Networks							     #
+# Program: AliceTheClient.py 								     #
+# By: xrawlinson									     #
+# Last Update Date: 4/19/2016								     #
+#											     #
+# Description: AliceTheClient runs as a client that requests to connect to                   #
 # 			   BobTheServer, after the connection is setup Alice sends a plain   #
 # 			   hello message to Bob asking for his public key. After receiving   #
 #			   and verifying the message from Bob, Alice uses Bob's public key,  #
 #			   to encrypt an iv and a Symmetric key she generated. She also      #
-#		       uses her own private key to sign her message, and encrypts        #
+#		       uses her own private key to sign her message, and encrypts            #
 #			   the signed message and the actual message with the iv and the     #
 #			   Symmetric key she generated. Then she wraps everything together   #
 # 			   to one encrypted message and sends it to BobTheServer.            #         
-# ############################################################################## #
+# ########################################################################################## #
 
 import socket 
 import sys
